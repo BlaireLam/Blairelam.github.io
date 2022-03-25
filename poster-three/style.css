@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+div.poster {
+    background-color:rgb(14, 109, 217);
+}
+
+@font-face {
+    font-family: uriahfont;
+    src: url('Pilowlava-Regular.woff');
+}
+
+div.text {
+    font-size:120px;
+    font-family:uriahfont;
+    text-align: left;
+    color: rgb(255, 104, 155);
+    transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:30px;
+}
+
+div.text.two {
+    font-size:75px;
+}
+
+div.text.three {
+    font-size:150px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    opacity: 50%;
+}
+
+div.text.b {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px 50px;
+    margin: 5px;
+}
+
+div.text.c {
+    opacity: 80%;
+}
+
+div.text.x {
+font-weight: 300;
+}
+
+div.text.y {
+font-weight: 700;
+}
+
+div.text.z {
+color: rgb(254,221,212);
+}
+
+div.small {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(254,221,212);
+}

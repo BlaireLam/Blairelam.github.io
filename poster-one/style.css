@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+div.poster {
+    background-color:rgb(0, 0, 0);
+    width:75%;
+}
+
+@font-face {
+    font-family: uriahfont;
+    src: url('PicNic-Regular.woff');
+}
+
+div.text {
+    font-size:120px;
+    font-family: uriahfont;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#bot_section {
+   
+}
+
+
+/* rule 1 */
+
+div.text.one {
+    -webkit-transform:scale(-1,1);
+}
+
+div.text.two {
+    -webkit-transform:scale(-1,-1);
+}
+
+div.text.three {
+    -webkit-transform:scale(1,1)
+}
+
+
+
+/* rule 2 */
+
+div.text.a {
+    text-align: left;
+}
+
+div.text.b {
+    text-shadow: 0 0 15px #fff, 0 0 30px #fff;
+}
+
+div.text.c {
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+}
+
+/* rule 3 */
+
+div.text.x {
+font-size: 50px;
+}
+
+div.text.y {
+font-size: 100px;
+}
+
+div.text.z {
+font-size: 250px;
+}
+
+
+
+
+div.text.black {
+    color:black
+}
+
+
+div.small {
+    font-size: 15px;
+    font-family:sans-serif;
+    margin-left: 2%;
+    text-align: left;
+    color: white;
+}
