@@ -11,11 +11,54 @@ div.poster {
     src: url('Pilowlava-Regular.woff');
 }
 
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* 1/4 grid */
+div.w1-4 {
+    width:25%;
+}
+
+div.w2-4 {
+    width:49.3%;
+}
+
+div.w3-4 {
+    width:74.3%;
+}
+
+div.w4-4 {
+    width: 100%;
+}
+
+/* 1/3 grid */
+div.w1-3 {
+    width:33.333%;
+}
+
+div.w2-3 {
+    width:66.666%;
+}
+
+div.w3-3 {
+    width: 100%;
+}
+
+
+
+/* 1/2 grid */
+div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
 div.text {
-    font-size:120px;
     font-family:uriahfont;
-    text-align: left;
-    color: rgb(255, 104, 155);
     transition: 0.5s;
 }
 
@@ -26,35 +69,37 @@ div.text.one {
 }
 
 div.text.two {
-    font-size:75px;
+    font-size:50px;
 }
 
 div.text.three {
-    font-size:150px;
+    font-size:100px;
 }
+
 
 /* rule 2 */
 
 div.text.a {
-    opacity: 50%;
+    -webkit-transform: scale(-1,1);
 }
 
 div.text.b {
-    border: 2px solid rgb(255, 244, 123);
-    border-radius: 50px 50px;
-    margin: 5px;
+    -webkit-transform: scale(1,1);
 }
 
 div.text.c {
-    opacity: 80%;
+    -webkit-transform: scale(1,1);
 }
 
+
+/* rule 3 */
+
 div.text.x {
-font-weight: 300;
+color: rgb(255, 104, 155);
 }
 
 div.text.y {
-font-weight: 700;
+color:white
 }
 
 div.text.z {
