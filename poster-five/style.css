@@ -3,11 +3,15 @@ body {
 }
 
 div.poster {
-    width: 100%;
+    width: 80%;
     background-image:url('mymind-unsplash.jpg');
+    border: 10px dotted rgb(255, 230, 196);
+    -moz-border-radius: 10px;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:left bottom;
+    background-position:center;
+    margin-top: 80px;
+    margin-left:10%;
 }
 
 @font-face {
@@ -16,7 +20,6 @@ div.poster {
 }
 
 div.text {
-    font-size:70px;
     font-family: hypha;
     text-align: left;
     color: rgb(255, 230, 196);
@@ -30,7 +33,6 @@ div.text {
 
 
 .col{
-
 }
 
 .w1-2 {
@@ -55,46 +57,48 @@ div.text.one {
 }
 
 div.text.two {
-    font-size: 120px;
+    font-size: 110px;
 }
 
 div.text.three {
-    font-size: 200px;
+    font-size: 130px;
 }
 
 /* rule 2 */
 
 div.text.a {
-    background-image:url('doddles.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    transform: scale(-1,1);
+}
     
 
-}
 
 div.text.b {
-    background-color:rgb(246,161,36);
+    transform: scale(1,1);
 }
 
 div.text.c {
+    transform: scale(1,1) 
+}
+
+div.text.x {
     background-image:url('mymind-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
-}
-
-div.text.x {
-
 }
 
 div.text.y {
-
+    background-image:url('mymind-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div.text.z {
-
+    background-image:url('mymind-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div.small {
