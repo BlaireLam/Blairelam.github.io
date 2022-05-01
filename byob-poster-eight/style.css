@@ -1,0 +1,96 @@
+body {
+    background-color:ivory;
+    background-image:url('flowers1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.poster {
+    width:70%;
+    margin-left: 15%;
+}
+
+@font-face {
+    font-family:curva;
+    src: url('Curvature-Regular.woff');
+}
+
+
+.text {
+    color: rgb(0, 0, 0);
+    font-family: curva;
+    font-weight: 600;
+    font-size: 300px;
+    transition: 0.5s;
+    text-align: center;
+    
+}
+
+.small {
+    color:rgb(0, 0, 0);
+    font-family:curva;
+    font-size:40px;
+    font-weight:600;
+    text-align: center;
+}
+
+.smalltext {
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 20px;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+/* COLUMN */
+.w1-3 {
+    width:33.3%;
+}
+
+.w2-3 {
+    width:70%;
+}
+
+.w2-2 {
+    width:100%;
+}
+
+.w1-2 {
+    width:50%;
+}
+
+/* RULE 1 */
+.text.one {
+   transform: scale(-1,1);
+}
+
+.text.two {
+    transform: scale(-1,1);
+}
+
+.text.three {
+    transform: scale(1,1);
+}
+
+
+
+/* RULE 2 */
+.text.a {
+    opacity: 100%;
+}
+
+.text.b {
+   opacity: 0%; 
+}
+
+.text.c {
+    opacity: 100%;
+}
+
