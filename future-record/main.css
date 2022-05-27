@@ -1,0 +1,128 @@
+@font-face {
+    font-family:Pexel Grotesk;
+    src: url('PexelGrotesk-Regular.woff');
+}
+
+body {
+    background-color:black;
+    font-size: 20px;
+    color:white;
+    font-family:Pexel Grotesk;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.logo {
+    width:70%;
+    padding:30px;
+}
+
+div.nav {
+    width:30%;
+    padding:30px;
+    text-align: right;
+    word-spacing: 40px;
+}
+
+div.masthead {
+    font-size:20vw;
+    line-height: 15vw;
+    padding:30px;
+}
+
+div.heatbar {
+    padding: 30px;
+}
+
+div.about {
+    font-family:Pexel Grotesk ;
+    font-size:20px;
+    padding:30px;
+    line-height: 25px;
+    width:70%;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color:crimson;
+}
+
+
+img {
+    width: 500px;
+}
+
+img.heatbar {
+    width: 1000px;
+    padding: 30px;
+}
+
+div.footnotes {
+    display:flex;
+    flex-wrap: wrap;
+    border-top:1px solid white;
+    font-size: 16px;
+}
+
+div.note {
+    width:33.3333%;
+    padding:30px;
+    line-height: 25px;
+}
+
+div.title {
+    font-size: 80px;
+    padding: 30px;
+    line-height: 1vw;
+    margin-top: 15px;
+}
+
+div.keywords {
+    font-size: 20px;
+    Padding:30px;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+div.item {
+    width:33.333%;
+    line-height: 45px;
+    padding: 30px;
+}
+
+a.button {
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 20px;
+}
+
+a.button:hover {
+    background-color: crimson;
+    color:white;
+}
+
+div.number {
+    font-size: 72px;
+}
+div.minititle {
+    font-size: 20px;
+}
+
+div.featureimg {
+    padding-left: 33.333%;
+}
