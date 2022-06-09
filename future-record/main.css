@@ -59,7 +59,7 @@ div.about {
     font-size:20px;
     padding:30px;
     line-height: 25px;
-    width:70%;
+    width:72%;
 }
 
 a {
@@ -86,12 +86,13 @@ div.footnotes {
     flex-wrap: wrap;
     border-top:1px solid white;
     font-size: 16px;
+    margin-top: 3%;
 }
 
 div.note {
     width:33.3333%;
     padding:30px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 div.title {
@@ -102,17 +103,12 @@ div.title {
 }
 
 div.subtitle {
-    margin-left: 10%;
-    padding: 30px;
+    margin-left: 8%;
     font-size: 30px;
-    width: 20%;
+    width: 14%;
+    padding: 20px;
 }
 
-div.subtitle2 {
-    width: 10%;
-    font-size:30px;
-    padding: 30px;
-}
 
 div.keywords {
     font-size: 20px;
@@ -129,6 +125,7 @@ div.container {
 div.container2 {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     padding-top: 30px;
     
 }
@@ -163,21 +160,32 @@ div.minititle {
 }
 
 div.featureimg {
-    width: 40%;
+    width: 30%;
+    margin-left: 10%;
 }
 div.heatbar2 {
-    width:5%;
+    width:1%;
+    padding-left: 8%;
 }
 
 div.footer {
     display:flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    width:100%;
+    margin-top: 50px;
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
     border-top:1px solid white;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+div.note1 {
+    width:65%;
+}
+
+div.note2 {
+    width: 35%;
 }
 
 video {
